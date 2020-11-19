@@ -1,0 +1,9 @@
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\bin\Debug\netcoreapp3.1\MinhaLoja.Business.deps.json
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\bin\Debug\netcoreapp3.1\MinhaLoja.Business.dll
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\bin\Debug\netcoreapp3.1\MinhaLoja.Business.pdb
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\obj\Debug\netcoreapp3.1\MinhaLoja.Business.csprojAssemblyReference.cache
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\obj\Debug\netcoreapp3.1\MinhaLoja.Business.AssemblyInfoInputs.cache
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\obj\Debug\netcoreapp3.1\MinhaLoja.Business.AssemblyInfo.cs
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\obj\Debug\netcoreapp3.1\MinhaLoja.Business.csproj.CoreCompileInputs.cache
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\obj\Debug\netcoreapp3.1\MinhaLoja.Business.dll
+D:\devPaul\MinhaLoja\src\MinhaLoja.Business\obj\Debug\netcoreapp3.1\MinhaLoja.Business.pdb

@@ -1,0 +1,12 @@
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\bin\Debug\netcoreapp3.1\MinhaLoja.Data.deps.json
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\bin\Debug\netcoreapp3.1\MinhaLoja.Data.dll
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\bin\Debug\netcoreapp3.1\MinhaLoja.Data.pdb
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\bin\Debug\netcoreapp3.1\MinhaLoja.Business.dll
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\bin\Debug\netcoreapp3.1\MinhaLoja.Business.pdb
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\obj\Debug\netcoreapp3.1\MinhaLoja.Data.csprojAssemblyReference.cache
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\obj\Debug\netcoreapp3.1\MinhaLoja.Data.AssemblyInfoInputs.cache
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\obj\Debug\netcoreapp3.1\MinhaLoja.Data.AssemblyInfo.cs
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\obj\Debug\netcoreapp3.1\MinhaLoja.Data.csproj.CoreCompileInputs.cache
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\obj\Debug\netcoreapp3.1\MinhaLoja.Data.csproj.CopyComplete
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\obj\Debug\netcoreapp3.1\MinhaLoja.Data.dll
+D:\devPaul\MinhaLoja\src\MinhaLoja.Data\obj\Debug\netcoreapp3.1\MinhaLoja.Data.pdb
