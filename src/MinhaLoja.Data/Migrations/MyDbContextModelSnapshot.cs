@@ -131,6 +131,7 @@ namespace MinhaLoja.Data.Migrations
                     b.HasOne("MinhaLoja.Business.Models.Fornecedor", "Fornecedor")
                         .WithOne("Endereco")
                         .HasForeignKey("MinhaLoja.Business.Models.Endereco", "FornecedorId")
+                        .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
                 });
 
@@ -139,6 +140,7 @@ namespace MinhaLoja.Data.Migrations
                     b.HasOne("MinhaLoja.Business.Models.Fornecedor", "Fornecedor")
                         .WithMany("Produtos")
                         .HasForeignKey("FornecedorId")
+                        .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

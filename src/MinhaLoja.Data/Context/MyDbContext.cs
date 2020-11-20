@@ -13,7 +13,6 @@ namespace MinhaLoja.Data.Context
         {
 
         }
-
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
@@ -22,8 +21,10 @@ namespace MinhaLoja.Data.Context
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MyDbContext).Assembly);
 
-            base.OnModelCreating(modelBuilder);
+            
             foreach (var relatioship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relatioship.DeleteBehavior = DeleteBehavior.ClientSetNull;
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

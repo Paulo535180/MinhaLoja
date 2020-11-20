@@ -201,3 +201,5 @@ D:\devPaul\MinhaLoja\src\MinhaLoja.App\obj\Debug\netcoreapp3.1\Razor\Views\Produ
 D:\devPaul\MinhaLoja\src\MinhaLoja.App\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Details.cshtml.g.cs
 D:\devPaul\MinhaLoja\src\MinhaLoja.App\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Edit.cshtml.g.cs
 D:\devPaul\MinhaLoja\src\MinhaLoja.App\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
+D:\devPaul\MinhaLoja\src\MinhaLoja.App\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
+D:\devPaul\MinhaLoja\src\MinhaLoja.App\bin\Debug\netcoreapp3.1\libman.json

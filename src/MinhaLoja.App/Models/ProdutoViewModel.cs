@@ -32,6 +32,7 @@ namespace MinhaLoja.App.Models
         //-----------------//
         public string Imagem { get; set; }
         
+        [DisplayName("Imagem do Produto")]
         public IFormFile ImagemUpload { get; set; }//
 
         //-------------------//
