@@ -1,9 +1,8 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,10 +11,8 @@ using MinhaLoja.App.Data;
 using MinhaLoja.Business.Interfaces;
 using MinhaLoja.Data.Context;
 using MinhaLoja.Data.Repository;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Globalization;
 
 namespace MinhaLoja.App
 {
@@ -47,6 +44,7 @@ namespace MinhaLoja.App
 
 
             services.AddAutoMapper(typeof(Startup));
+            services.AddMvc();
 
             services.AddScoped<MyDbContext>();
 
@@ -54,6 +52,8 @@ namespace MinhaLoja.App
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+
+            services.AddControllers().AddRazorRuntimeCompilation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -77,6 +77,15 @@ namespace MinhaLoja.App
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            var defaultCulture = new CultureInfo("pt-BR");
+            var localizationsOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(defaultCulture),
+                SupportedCultures = new List<CultureInfo> { defaultCulture },
+                SupportedUICultures = new List<CultureInfo> { defaultCulture }
+            }; 
+            app.UseRequestLocalization(localizationsOptions);
 
             app.UseEndpoints(endpoints =>
             {
